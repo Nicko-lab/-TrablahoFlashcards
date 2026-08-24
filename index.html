@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlashCardNico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <input type="radio" name="deck" id="input-card1" checked>
+    <input type="radio" name="deck" id="input-card2">
+    <input type="radio" name="deck" id="input-card3">
+
+    <div class="deck-container">
+        
+        <div class="flashcard-container" id="card1">
+            <div class="flashcard-inner">
+                <div class="flashcard-front">
+                    <h2>Boa parte dos estudantes do EMR do Suplicy tem problemas visuais</h2>
+                    <p>Passe o mouse!</p>
+                </div>
+                <div class="flashcard-back">
+                    <h2>Na verdade!</h2>
+                    <p>Aproximadamente 60% dos estudantes do Suplicy afirmam ter uma visão completamente normal.</p>
+                </div>
+            </div>
+            <div class="controles">
+                <label for="input-card3" class="btn">&#8592; Anterior</label> 
+                <label for="input-card2" class="btn">Próximo &#8594;</label> 
+            </div>
+        </div>
+
+        <div class="flashcard-container" id="card2">
+            <div class="flashcard-inner">
+                <div class="flashcard-front">
+                    <h2>Pouquíssimos estudantes do EMR já foram ao Oftalmologista!</h2>
+                    <p>Passe o mouse!</p>
+                </div>
+                <div class="flashcard-back">
+                    <h2>Quase 93% dos estudantes já foram ao Oftalmologista!</h2>
+                    <p>93% é muita coisa</p>
+                </div>
+            </div>
+            <div class="controles">
+                <label for="input-card1" class="btn">&#8592; Anterior</label> 
+                <label for="input-card3" class="btn">Próximo &#8594;</label> 
+            </div>
+        </div>
+
+        <div class="flashcard-container" id="card3">
+            <div class="flashcard-inner">
+                <div class="flashcard-front">
+                    <h2>Todos com dificuldade visual usam lente ou óculos constantemente</h2>
+                    <p>Passe o mouse!</p>
+                </div>
+                <div class="flashcard-back">
+                    <h2>25% dos estudantes com deficiência visual não usam lente ou óculos!</h2>
+                    <p>Preocupante, Não?</p>
+                </div>
+            </div>
+            <div class="controles">
+                <label for="input-card2" class="btn">&#8592; Anterior</label> 
+                <label for="input-card1" class="btn">Próximo &#8594;</label> 
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
